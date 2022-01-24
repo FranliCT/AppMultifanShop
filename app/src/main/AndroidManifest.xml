@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMultifan">
         <activity
-            android:name=".MainActivity"
+            android:name=".Halaman_Register"
+            android:exported="false" />
+        <activity
+            android:name=".Halaman_Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
